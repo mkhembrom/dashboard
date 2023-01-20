@@ -1,0 +1,16 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+    
+   
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}

@@ -1,0 +1,74 @@
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: black;
+    padding: 10px 0;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.logo span{
+    color: #00DCC6;
+}
+
+.nav{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    margin-right: 1.2rem;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.links:hover{
+    transition: all 0.3s ease-in;
+     border-bottom: 2px solid #00DCC6;
+}
+
+.MuiBadge-dot{
+    color: red;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.info .names{
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+}

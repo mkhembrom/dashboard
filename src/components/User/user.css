@@ -1,0 +1,53 @@
+
+.team_box{
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .team_info{
+     width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px !important;
+
+  }
+
+  .asm{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .team_role{
+    
+  }
+  
+  .team_name{
+    font-weight: bold;
+  }
+
+  .team_designation{
+    font-size: 14px;
+  }
+  
+  .mood_slider{
+    margin: 1rem 1rem;
+    padding: 0 1rem;
+    position: relative;
+    height: 5px;
+    background-color: #EBEBEB;
+  
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .emo{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+

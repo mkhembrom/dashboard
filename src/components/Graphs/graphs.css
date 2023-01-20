@@ -1,0 +1,44 @@
+.graph{
+  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.one_graph{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+   
+}
+
+.two_graph{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .graph{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+    .one_graph{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .two_graph{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+}

@@ -1,0 +1,30 @@
+.project{
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+
+.red{
+    background-color: #FF768B;
+}
+
+.red.number{
+    color: #fff !important;
+}
+.red.name{
+    color: #fff !important;
+}
+
+.number{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.name{
+    text-align: center;
+    color: #000;
+}
